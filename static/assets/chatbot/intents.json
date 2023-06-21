@@ -1,0 +1,145 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": [
+                "Halo",
+                "Apa kabar", 
+                "Ada orang disana?",
+                "Hei",
+                "Woy", 
+                "Hai"
+                
+        ],
+         "responses": [
+                "Halo, terima kasih telah bertanya",
+                "Senang bertemu kamu", 
+                "Ada yang bisa saya bantu?",
+                "Hai, ada perlu apa?",
+                "Yoi...."
+        ],
+         "context": [""]
+        },
+        {"tag": "salam",
+         "patterns": [
+                "Assalamualaikum", 
+		    "Salam",
+		    "Ass"
+        ],
+         "responses": [
+                "Waalaikumsalam"
+        ],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": [
+                "Bye", 
+                "Sampai Jumpa", 
+                "Selamat Tinggal", 
+                "Dadah", 
+                "Dahh"
+        ],
+         "responses": [
+                "Sampai jumpa lagi", 
+                "Semoga harimu menyenangkan", 
+                "Dadah! Kembali lagi yaa.....",
+                "Senang berbincang dengan anda....",
+                "Selamat menikmati harimu..."
+        ],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": [
+                "Terima kasih", 
+                "Makasih", 
+                "Thanks", 
+                "Terima Kasih Banyak", 
+                "Terima kasih telah membantu saya"
+        ],
+         "responses": [
+                "Dengan senang hati", 
+                "Kapan saja saya siap membantu", 
+                "Sudah menjadi tugas saya",
+                "Anda puas, saya juga puas"
+        ],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": [
+                "Maaf, saya tidak mengerti yang anda maksud", 
+                "Mohon untuk lebih spesifik lagi", 
+                "Saya tidak yakin bahwa saya mengerti"
+        ],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": [
+                "Bisakah kamu membantuku?", 
+                "Apa yang bisa kamu lakukan?", 
+                "Apa yang kamu tawarkan?", 
+                "Bagaimana kamu sangat membantu?", 
+                "Kamu bisa bantu aku?"
+        ],
+         "responses": [ 
+                "Saya menawarkan tentang bantuan tentang seputar aplikasi absensi wajah "
+        ],
+         "context": [""]
+        },
+        {"tag": "PROFIL",
+         "patterns": [
+                "Saya ingin menngetahui seputar aplikasi absensi wajah?", 
+		  "bagaimana sisem kerja aplikasi ini?",
+		  "apa saja fitur yang ada di aplikasi ini?",
+                "apakah ada minimal jumlah karyawan untuk menggunakan absensi?"
+         ],
+         "responses": [
+                "Absensi wajah ini dibuat dengan bantuan teknologi artificial intelligence (AI) atau disebut kecerdasan buatan. AI ini berfungsi untuk mengenali wajah-wajah yang sudah didaftarkan pada database sehingga para karyawan dapat menggunakan fitur absensi wajah di kantor mereka.",
+                "fitur yang ada pada sistem aplikasi wajah ini yaitu terdapat sebuah dashboard, profil, rekapan data",
+                "Appsensi tidak memberikan jumlah minimal karyawan untuk menggunakan aplikasi kehadiran karyawan. Sehingga Appsensi sangat cocok digunakan oleh berbagai jenis bidang usaha mulai dari UMKM hingga perusahaan skala multi-nasional."
+        ],
+         "context": [""]
+        },
+        {"tag": "detect",
+         "patterns": [
+                "bagaimana cara sistem kerja absensi wajah?"
+		 
+          ],
+         "responses": [
+                "1.Aplikasi absensi wajah akan mendeteksi wajah karyawan dengan bantuan kamera 2.  Software membaca wajah secara geometri seperti jarak antara dahi ke dagu, jarak antara mata kanan dan mata kiri, kedalaman mata, bentuk rahang, kontur bibir, telinga, dan dagu.  3.Software mengidentifikasi landmark pada wajah untuk membedakannya. 4. Landmark wajah yang sudah dikenali dan disebut sebagai facial signature kemudian dibandingkan dengan data yang tersimpan di database. 5.  Hasil akan keluar setelah kecocokan faceprint dan database ditemukan. "
+          ],
+         "context": [""]
+        },
+        {"tag": "benafit",
+         "patterns": [
+                "manfaat menggunakan sistem wajah?"
+              
+        ],
+         "responses": [
+                "menghindari titip absen, cantatcless, menghindari gagal absen, efisien waktu, mengurangi potensi kriminalitas, automatic time tracking "
+        ],
+         "context": [""]
+        },
+        {"tag": "period",
+         "patterns": [
+		  "keunggulan sistem absensi?"
+		  
+
+        ],
+         "responses": [
+                "Data Absensi Kehadiran Akurat dan Real Time, Perhitungan Payroll Otomatis,Absensi Kehadiran Fleksibel,  "
+          
+        ],
+         "context": [""]
+        },
+        {"tag": "temp",
+         "patterns": [
+                "Area mana saja yang dikenali untuk proses pengenalan wajah?"
+
+        ],
+         "responses": [
+               "SmartPresence pengenalan wajah mengenali pola berdasarkan detail lekuk dahi diatas mata, bentuk pola mata dan titik tengah mata, pola hidung, pola pipi, pola bibir dan pola dagu."
+          
+        ],
+         "context": [""]
+        }
+   ]
+}
